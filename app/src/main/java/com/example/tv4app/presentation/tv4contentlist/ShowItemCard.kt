@@ -57,7 +57,7 @@ fun ShowItemCard(
             Text(
                 text = stringResource(
                     id = R.string.start_time,
-                    tv4Show.title?.toFormatedTime() ?: ""
+                    tv4Show.showBroadCastTime?.toFormatedTime() ?: ""
                 ),
                 style = MaterialTheme.typography.bodyMedium
             )

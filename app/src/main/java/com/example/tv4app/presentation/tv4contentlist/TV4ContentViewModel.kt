@@ -31,6 +31,7 @@ class TV4ContentViewModel @Inject constructor(
             when (val result = repository.getContent()) {
                 is Resource.Success -> {
                     isLoading.value = false
+                    loadError.value = UiText.DynamicString("")
                     tv4ShowsList.value =
                         result.data?.data?.shuffled() ?: emptyList()
                 }
