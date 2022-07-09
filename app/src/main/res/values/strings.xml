@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TV4App</string>
+    <string name="title">Content</string>
+    <string name="unknown_error">An unknown error occurred.</string>
+    <string name="start_time">Live from: %s</string>
+
+</resources>
